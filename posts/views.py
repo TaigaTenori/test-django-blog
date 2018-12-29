@@ -14,7 +14,7 @@ def get_posts(request):
     
     
     
-def post_details(request, pk):
+def post_detail(request, pk):
     """
     Create a view that returns a single Post object
     based on the post id (pk) and render it to 'postdetails.html' template
